@@ -32,7 +32,7 @@ function Register() {
 
   return (
     <Layout>
-      <div className="Register-page">
+      <div className="register-page">
 
         <h1>
           Create your <br /> PopX account
@@ -108,7 +108,7 @@ function Register() {
           </div>
         </div>
 
-        <div className="Register-btn">
+        <div className="register-btn">
           <Button
             text="Create Account"
             className="primary"

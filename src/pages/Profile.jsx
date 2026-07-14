@@ -4,22 +4,22 @@ import "../styles/Profile.css";
 function Profile() {
   return (
     <Layout>
-      <div className="Profile-page">
+      <div className="profile-page">
 
         <div className="header">
           <h3>Account Settings</h3>
         </div>
 
-        <div className="Profile-body">
+        <div className="profile-body">
 
-          <div className="Profile-info">
+          <div className="profile-info">
 
             <div className="image-container">
 
               <img
                 src="https://i.pravatar.cc/150?img=12"
                 alt="Profile"
-                className="Profile-image"
+                className="profile-image"
               />
 
               <div className="camera-icon">

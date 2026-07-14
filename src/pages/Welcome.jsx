@@ -6,9 +6,9 @@ import "../styles/Welcome.css";
 function Welcome() {
   return (
     <Layout>
-      <div className="Welcome-page">
+      <div className="welcome-page">
 
-        <div className="Welcome-content">
+        <div className="welcome-content">
           <h1>Welcome to PopX</h1>
 
           <p>
