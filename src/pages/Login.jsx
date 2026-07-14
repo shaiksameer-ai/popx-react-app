@@ -1,47 +1,57 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import InputField from "../components/InputField";
+import Button from "../components/Button";
+import Layout from "../components/Layout";
 import "../styles/Login.css";
 
 function Login() {
+  const navigate = useNavigate();
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleLogin = () => {
+    navigate("/profile");
+  };
+
   return (
-    <div className="mobile-container">
+    <Layout>
+      <div className="login-page">
 
-      <div className="login-container">
-
-        <h1>Signin to your PopX account</h1>
+        <h1>
+          Signin to your <br /> PopX account
+        </h1>
 
         <p>
           Lorem ipsum dolor sit amet,
+          <br />
           consectetur adipiscing elit.
         </p>
 
-        <div className="input-group">
+        <InputField
+          label="Email Address"
+          placeholder="Enter email address"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
 
-          <label>Email Address</label>
+        <InputField
+          label="Password"
+          type="password"
+          placeholder="Enter password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
 
-          <input
-            type="email"
-            placeholder="Enter email address"
-          />
-
-        </div>
-
-        <div className="input-group">
-
-          <label>Password</label>
-
-          <input
-            type="password"
-            placeholder="Enter password"
-          />
-
-        </div>
-
-        <button className="login-button">
-          Login
-        </button>
+        <Button
+          text="Login"
+          className={email && password ? "primary" : "disabled"}
+          onClick={handleLogin}
+        />
 
       </div>
-
-    </div>
+    </Layout>
   );
 }
 
