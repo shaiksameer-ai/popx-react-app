@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
 
-import "../styles/register.css";
+import "../styles/Register.css";
 
 function Register() {
   const navigate = useNavigate();
@@ -32,7 +32,7 @@ function Register() {
 
   return (
     <Layout>
-      <div className="register-page">
+      <div className="Register-page">
 
         <h1>
           Create your <br /> PopX account
@@ -108,7 +108,7 @@ function Register() {
           </div>
         </div>
 
-        <div className="register-btn">
+        <div className="Register-btn">
           <Button
             text="Create Account"
             className="primary"

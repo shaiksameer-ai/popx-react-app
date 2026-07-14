@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import Layout from "../components/Layout";
-import "../styles/welcome.css";
+import "../styles/Welcome.css";
 
 function Welcome() {
   return (
     <Layout>
-      <div className="welcome-page">
+      <div className="Welcome-page">
 
-        <div className="welcome-content">
+        <div className="Welcome-content">
           <h1>Welcome to PopX</h1>
 
           <p>

@@ -4,7 +4,7 @@ function Login() {
   return (
     <div className="mobile-container">
 
-      <div className="login-container">
+      <div className="Login-container">
 
         <h1>Signin to your PopX account</h1>
 
