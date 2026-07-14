@@ -1,0 +1,58 @@
+.mobile-container {
+  width: 375px;
+  height: 812px;
+  background: #f7f8f9;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+.login-container {
+  padding: 40px 20px;
+}
+
+.login-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d2226;
+}
+
+.login-container p {
+  color: #6c757d;
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+.input-group {
+  margin-bottom: 22px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #6c25ff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #cbcbcb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
