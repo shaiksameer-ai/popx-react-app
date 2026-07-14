@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import Layout from "../components/Layout";
-import "../styles/Welcome.css";
+import "../styles/welcome.css";
 
 function Welcome() {
   return (

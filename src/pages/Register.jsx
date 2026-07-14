@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
 
-import "../styles/Register.css";
+import "../styles/register.css";
 
 function Register() {
   const navigate = useNavigate();

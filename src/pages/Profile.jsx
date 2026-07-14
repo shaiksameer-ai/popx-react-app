@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import "../styles/Profile.css";
+import "../styles/profile.css";
 
 function Profile() {
   return (

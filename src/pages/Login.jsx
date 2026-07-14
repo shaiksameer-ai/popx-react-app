@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import InputField from "../components/InputField";
 import Button from "../components/Button";
 import Layout from "../components/Layout";
-import "../styles/Login.css";
+import "../styles/login.css";
 
 function Login() {
   const navigate = useNavigate();
